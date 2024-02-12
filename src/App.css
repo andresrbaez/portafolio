@@ -476,7 +476,7 @@ button, input, optgroup, select, textarea {
   position: relative;
   width: auto;
   border-radius: 15px;
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

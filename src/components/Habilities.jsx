@@ -7,6 +7,7 @@ import redux from '../images/Redux.png'
 import reactRouter from '../images/reactRouter.png'
 import bootstrap from '../images/Bootstrap.png'
 import gitHub from '../images/Github.png'
+import tailwind from '../images/tailwind.png'
 
 const Habilities = () => {
     return (
@@ -42,8 +43,8 @@ const Habilities = () => {
                     <small>React Router</small>
                 </div>
                 <div className='tecInfo'>
-                    <img src={bootstrap} className='imgHabilities'/>
-                    <small>Bootstrap</small>
+                    <img src={tailwind} className='imgHabilities'/>
+                    <small>Tailwind</small>
                 </div>
                 <div className='tecInfo'>
                     <img src={gitHub} className='imgHabilities github'/>

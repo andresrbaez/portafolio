@@ -11,6 +11,8 @@ import redux from '../images/Redux.png'
 import reactRouter from '../images/reactRouter.png'
 import bootstrap from '../images/Bootstrap.png'
 import gitHub from '../images/Github.png'
+import dollarsense from '../images/dollarsense.png'
+import supabase from '../images/supabase.png'
 
 const Portfolio = () => {
     return (
@@ -21,6 +23,22 @@ const Portfolio = () => {
                 </h1>
             </div>
             <div className='wrap'>
+                <div className='boxPortfolio'>
+                    <a href="https://dollarsense.work" target="_blank">
+                        {/* <img src={weather} className='imgPortfolio' /> */}
+                        <img src={dollarsense} className='imgPortfolio' />
+                        <div className='cap'>
+                            <img src={react} className='imgHover' />
+                            <img src={html} className='imgHover' />
+                            <img src={css} className='imgHover' />
+                            <img src={supabase} className='imgHover' />
+                            <p className='infoHover'>
+                                <b>Dollarsense</b>
+                                Toma el control de tus 💵gastos e 💰ingresos.
+                            </p>
+                        </div>
+                    </a>
+                </div>
                 <div className='boxPortfolio'>
                     <a href="https://pokedex-api2022.netlify.app/" target="_blank">
                         <img src={pokedex} className='imgPortfolio' />
@@ -64,20 +82,6 @@ const Portfolio = () => {
                             <p className='infoHover'>
                                 <b>Rick & Morty's Wiki</b>
                                 Encuentra todos los mundos y sus personajes.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div className='boxPortfolio'>
-                    <a href="https://lambent-kheer-45042f.netlify.app" target="_blank">
-                        <img src={weather} className='imgPortfolio' />
-                        <div className='cap'>
-                            <img src={react} className='imgHover' />
-                            <img src={html} className='imgHover' />
-                            <img src={css} className='imgHover' />
-                            <p className='infoHover'>
-                                <b>Weather App</b>
-                                Consulta el clima en la ubicación que te encuentres.
                             </p>
                         </div>
                     </a>

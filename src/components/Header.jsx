@@ -15,7 +15,7 @@ const Header = () => {
                     </div>
                     <div>
                         <h5 className='h5D' style={{position: "relative", zIndex: "99"}}>
-                            Me encantan los retos y los videojuegos 🕹️
+                            Bogotá D.C, Colombia📍
                         </h5>
                     </div>
                 </div>

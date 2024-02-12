@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import espCV from '../docs/andresFelipeRodriguezCV.pdf'
-import engCV from '../docs/andresRodriguezFrontEndDevEnCV.pdf'
+import espCV from '../docs/andresRodriguezHV.pdf'
+import engCV from '../docs/andresRodriguezCV.pdf'
 
 const CvToggle = () => {
   const [toggle, setToggle] = useState(false);
