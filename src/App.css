@@ -835,16 +835,23 @@ button, input, optgroup, select, textarea {
   }
   .boxPortfolio{
     display: block;
+    height: 220px;
+  }
+  .boxPortfolio>a:hover > .cap .imgHover{
+    margin-top: 50px;
+    margin-bottom: 15px;
   }
   .imgPortfolio{
-    width: 335px;
+    width: 600px;
+    /* width: 335px; */
   }
 
 }
 @media (max-width: 950px) {
   .wrap{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr 1fr; */
   }
   .h1{
     display: inline-block;
