@@ -835,10 +835,10 @@ button, input, optgroup, select, textarea {
   }
   .boxPortfolio{
     display: block;
-    height: 220px;
+    height: 195px;
   }
   .boxPortfolio>a:hover > .cap .imgHover{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 15px;
   }
   .imgPortfolio{
